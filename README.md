@@ -1,70 +1,67 @@
-# React.js and Tailwind CSS Assignment
+# 🚀 React Task Manager Application
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project is a responsive React application built for the Week 3 assignment of the PLP program. It demonstrates a solid understanding of modern front-end development, including component architecture, state management with React Hooks, API integration, and styling with Tailwind CSS.
 
-## Assignment Overview
+## ✨ Live Demo
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+[**View the deployed application here**](https://your-deployment-url.com)
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## 📂 Key Features
 
-## Files Included
+- **📝 Full-Featured Task Manager**: Add, complete, delete, and filter tasks. Your tasks are automatically saved to your browser's local storage.
+- **🌐 API Integration**: Fetches a list of sample tasks from a public API, complete with pagination and a real-time search filter.
+- **🌓 Light & Dark Mode**: A theme switcher that toggles the application between light and dark modes, with the user's preference saved locally.
+- **📱 Fully Responsive Design**: The layout is optimized for mobile, tablet, and desktop screens using Tailwind CSS.
+- **🧩 Component-Based Architecture**: Built with reusable and well-structured React components.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 🛠️ Tech Stack
 
-## Requirements
+- **React**: For building the user interface.
+- **Vite**: As the fast front-end build tool.
+- **Tailwind CSS**: For utility-first styling and responsive design.
+- **React Router**: For client-side routing and navigation.
+- **React Hooks**: (`useState`, `useEffect`, `useContext`, `useMemo`) for state management and side effects.
+- **Custom Hooks**: A `useLocalStorage` hook for persisting data.
+- **React Feather**: For clean and simple icons.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+## 📸 Screenshots
 
-## Project Structure
+*Suggestion: Add screenshots of your application here. Good examples would be the Task Manager page (in dark mode) and the API Data page.*
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+**Home Page**
+![App Screenshot](screenshots/homepage.png)
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+**Task Manager (Dark Mode)**
+!Task Manager Screenshot
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+**API Data Page**
+!API Data Page Screenshot
 
-## Resources
+## ⚙️ Setup and Installation
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+To run this project locally, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Akubrecah/react-js-jsx-and-css-mastering-front-end-development-Akubrecah.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd react-js-jsx-and-css-mastering-front-end-development-Akubrecah
+    ```
+
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open your browser and navigate to `http://localhost:5173` (or the address shown in your terminal).
