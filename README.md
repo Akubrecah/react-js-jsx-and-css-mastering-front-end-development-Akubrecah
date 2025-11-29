@@ -31,14 +31,17 @@ This project is a responsive React application built for the Week 3 assignment o
 *Suggestion: Add screenshots of your application here. Good examples would be the Task Manager page (in dark mode) and the API Data page.*
 
 **Home Page**
-![App Screenshot](screenshots/homepage.png)
+<!-- Add your screenshots here -->
 
-
-**Task Manager (Dark Mode)**
-!Task Manager Screenshot
+**Task Manager**
+<!-- Add your screenshots here -->
 
 **API Data Page**
-!API Data Page Screenshot
+<!-- Add your screenshots here -->
+
+## 🛡️ Error Handling
+
+The application includes a global **Error Boundary** to catch and display runtime errors gracefully, ensuring a better user experience even when unexpected issues occur.
 
 ## ⚙️ Setup and Installation
 
