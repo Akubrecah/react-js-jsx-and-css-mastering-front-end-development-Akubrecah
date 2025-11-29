@@ -1,7 +1,8 @@
-import React, { createContext, useState, useEffect } from 'react';
+import { createContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import useLocalStorage from '../hooks/useLocalStorage';
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {

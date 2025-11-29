@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, GitHub, Linkedin, Phone } from 'react-feather';
 import Card from '../components/Card';
 

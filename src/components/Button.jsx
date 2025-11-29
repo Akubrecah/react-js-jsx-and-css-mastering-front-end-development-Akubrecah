@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ children, onClick, variant = 'primary', size = 'md', type = 'button', ...props }) => {
